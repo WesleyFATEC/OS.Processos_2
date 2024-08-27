@@ -16,7 +16,7 @@ public class KillController {
 			cmd = "TASKLIST /FO TABLE";
 		}else
 		{
-			cmd = "ps-ef";
+			cmd = "ps -ef";
 		}
 		
 		try {
